@@ -64,9 +64,8 @@ console.log(MaxNumber(mathNumbers));
 function checkNumber(number) {
   if (number % 2 == 0) {
     return "number is even";
-  } else {
-    return "number is odd";
   }
+  return "number is odd";
 }
 
 console.log(checkNumber(5));
@@ -90,3 +89,5 @@ for (let i = 0; i < array2.length; i++) {
     break;
   }
 }
+
+

@@ -1,3 +1,5 @@
+'use strict'
+
 // N1
 function sum(numbers) {
   let total = 0;
@@ -30,7 +32,7 @@ let user = {
 
 console.log(getFullName(user));
 
-N3;
+// N3
 function getMaxNumber(numbersList) {
   if (numbersList.length === 0) {
     return null;
@@ -69,3 +71,13 @@ function checkNumber(number) {
 
 console.log(checkNumber(5));
 console.log(checkNumber(4));
+
+// N5
+let array = [1,2,3,4,5]; 
+
+
+// N6
+let checkUserAge = (age) => age > 18 ? 'სრულწლოვანი' : 'არასრულწლოვანი'
+
+console.log(checkUserAge(20));
+console.log(checkUserAge(15));

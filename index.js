@@ -29,3 +29,31 @@ let user = {
 };
 
 console.log(getFullName(user));
+
+N3;
+function getMaxNumber(numbersList) {
+  if (numbersList.length === 0) {
+    return null;
+  }
+  let maxNumber = numbersList[0];
+  for (let i = 1; i < numbersList.length; i++) {
+    if (numbersList[i] > maxNumber) {
+      maxNumber = numbersList[i];
+    }
+  }
+  return maxNumber;
+}
+
+let numbersList = [3, 7, 1, 9, 2, 10, 5];
+console.log(getMaxNumber(numbersList));
+
+// N3 B
+function MaxNumber(mathNumbers) {
+  if (mathNumbers.length == 0) {
+    return null;
+  }
+  return Math.max(...mathNumbers);
+}
+
+let mathNumbers = [3, 7, 1, 9, 2, 10, 15, 20, 5];
+console.log(MaxNumber(mathNumbers));

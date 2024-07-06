@@ -73,6 +73,14 @@ console.log(checkNumber(4));
 
 // N5
 let array = [1, 2, 3, 4, 5];
+let reversedArray = [];
+
+for (let i = 0; i < array.length; i++) {
+  reversedArray[i] = array[array.length - 1 - i];
+}
+
+console.log(reversedArray);
+
 
 // N6
 let checkUserAge = (age) => (age > 18 ? "სრულწლოვანი" : "არასრულლოვანი");
@@ -137,3 +145,19 @@ function multiplesOfFive(arr) {
 
 let resultOfFive = multiplesOfFive(array7);
 console.log(resultOfFive);
+
+
+// N12
+let array8 = [ [2, -3, 5, 11], [1, -35, -11], [12, -36, -24] ];
+
+function printPositiveNumbers(arr) {
+  arr.forEach(subArray => {
+    subArray.forEach(number => {
+      if (number > 0) {
+        console.log(number);
+      }
+    });
+  });
+}
+
+printPositiveNumbers(array8);

@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 // N1
 function sum(numbers) {
@@ -73,11 +73,20 @@ console.log(checkNumber(5));
 console.log(checkNumber(4));
 
 // N5
-let array = [1,2,3,4,5]; 
-
+let array = [1, 2, 3, 4, 5];
 
 // N6
-let checkUserAge = (age) => age > 18 ? 'სრულწლოვანი' : 'არასრულწლოვანი'
+let checkUserAge = (age) => (age > 18 ? "სრულწლოვანი" : "არასრულლოვანი");
 
 console.log(checkUserAge(20));
 console.log(checkUserAge(15));
+
+// N7
+let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (let i = 0; i < array2.length; i++) {
+  if (array2[i] === 5) {
+    console.log("არის");
+    break;
+  }
+}

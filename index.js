@@ -57,3 +57,15 @@ function MaxNumber(mathNumbers) {
 
 let mathNumbers = [3, 7, 1, 9, 2, 10, 15, 20, 5];
 console.log(MaxNumber(mathNumbers));
+
+// N4
+function checkNumber(number) {
+  if (number % 2 == 0) {
+    return "number is even";
+  } else {
+    return "number is odd";
+  }
+}
+
+console.log(checkNumber(5));
+console.log(checkNumber(4));

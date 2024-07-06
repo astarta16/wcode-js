@@ -101,12 +101,25 @@ for (let i = 0; i < array3.length; i++) {
 console.log(sum);
 
 // N9
-let array4= [1, 2, 3, 4, 5];
+let array4 = [1, 2, 3, 4, 5];
 let total = 0;
 
 for (let i = 0; i < array4.length; i++) {
-    total += array4[i];
+  total += array4[i];
 }
 
 let avarage = total / array4.length;
 console.log(avarage);
+
+// N10
+let array5 = [1, 2, 3, 7, 6, 9];
+
+for (let i = 0; i < array5.length; i++) {
+  if (array5[i] === 7) {
+    continue;
+  }
+  console.log(array5[i]);
+}
+
+// N11
+

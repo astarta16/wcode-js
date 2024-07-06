@@ -122,4 +122,18 @@ for (let i = 0; i < array5.length; i++) {
 }
 
 // N11
+let array7 = [32, 14, null, "40", 50];
 
+function multiplesOfFive(arr) {
+  let resultOfFive = [];
+  for (let i = 0; i < arr.length; i++) {
+    let item = arr[i];
+    if (typeof item === "number" && item % 5 === 0) {
+      resultOfFive.push(item);
+    }
+  }
+  return resultOfFive;
+}
+
+let resultOfFive = multiplesOfFive(array7);
+console.log(resultOfFive);

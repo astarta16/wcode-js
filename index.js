@@ -90,4 +90,23 @@ for (let i = 0; i < array2.length; i++) {
   }
 }
 
+// N8
+let array3 = [1, 2, 3, 4, 5];
+sum = 0;
 
+for (let i = 0; i < array3.length; i++) {
+  sum += array3[i];
+}
+
+console.log(sum);
+
+// N9
+let array4= [1, 2, 3, 4, 5];
+let total = 0;
+
+for (let i = 0; i < array4.length; i++) {
+    total += array4[i];
+}
+
+let avarage = total / array4.length;
+console.log(avarage);
